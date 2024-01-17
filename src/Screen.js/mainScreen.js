@@ -10,10 +10,18 @@ import SecList from '../Component/SectionList';
 import Effect from '../Component/UseEffect';
 import Toggle from '../Component/ToogleComponent';
 import Style from '../Component/FlexSTyle';
+import Button from '../Component/Button';
+import RadioButton from '../Component/RadioButton';
+import DynamicRadioButton from '../Component/DyanmicRadioButton';
+
+import Loder from '../Component/ActivityIndicator';
+import ModalBox from '../Component/Model';
+import DynamicModal from '../Component/DyanmicModal';
+import PressCom from '../Component/Pressableom';
 const MainScreen=()=>{
     return(
         <View>
-         <Style/>
+         <PressCom/>
         </View>
     )
 }
