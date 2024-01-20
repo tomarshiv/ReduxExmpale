@@ -1,20 +1,15 @@
 import React from "react";
-import {Text,View} from 'react-native'
-import ProductScreen from "./src/Screen.js/ProductScreen";
-import MainScreen from "./src/Screen.js/mainScreen";
-// import inputBox from "./src/Component/inputBox";
+import { Text, View, Button } from 'react-native'
+import RootNavigation from "./src/navigation/RootNavigation";
+import BottomTabNavigation from "./src/navigation/BottomTabNavigation";
+import TopTabNavigation from "./src/navigation/TopTabNavigation";
+import MainScreen from "./src/Screen/mainScreen";
 
 
-const App=()=>{
-    return(
-      
-      
-        
-     <View>
-  <MainScreen/>
-     </View>
-      
-      
-    )
+const App = () => {
+    return (
+         <MainScreen/>
+     )
 }
+
 export default App
